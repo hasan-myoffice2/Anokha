@@ -55,3 +55,82 @@ body {
   }
 }
 // Navbar Section End
+
+// Hero Section Start
+.hero-section {
+  background-image: url(/assets/image/mim.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  position: relative;
+  z-index: 0;
+  
+ .container {
+  z-index: 2;
+ }
+  .hero-content {
+    padding: 15rem 0;
+
+    h1 {
+      color: #fff;
+      font-size: 44px;
+      line-height: 4rem;
+    }
+
+    p {
+      padding: 1rem 0;
+      color: #ffffff80;
+      line-height: 2rem;
+      font-size: 17px;
+    }
+  }
+
+  .hero-section::after {
+    content: "";
+    
+  }
+
+  .button-group {
+    display: flex;
+    gap: 1rem;
+    .buy-button {
+      padding: 12px 20px;
+      background-color: transparent;
+      border: none;
+      background-color: #00BCD4;
+      color: #fff;
+      border-radius: 20px;
+      transition: all 0.4s ease;
+    }
+
+    .read-more-button {
+      padding: 8px 20px;
+      background-color: transparent;
+      border: none;
+      border: 1px solid #00BCD4;
+      border-radius: 18px;
+      color: #00BCD4;
+      transition: all 0.4s ease;
+      display: flex;
+      align-items: center;
+      i {
+        font-size: 20px;
+        margin-left: 0.5rem;
+        
+      }
+    }
+    .read-more-button:hover {
+      background-color: #00BCD4;
+      color: #fff;
+    }
+
+    .buy-button:hover {
+      background-color: #008FA1;
+    }
+    
+    
+
+  }
+
+}
+// Hero Section End
