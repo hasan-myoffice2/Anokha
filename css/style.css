@@ -36,4 +36,48 @@ p {
   box-sizing: border-box;
 }
 
+body {
+  font-family: "montserrat", sans-serif;
+}
+
+.navbar {
+  background-color: #fff;
+}
+.navbar .navbar-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 0;
+}
+.navbar .navbar-nav a {
+  text-decoration: none;
+  font-family: "roboto", sans-serif;
+}
+.navbar .navbar-nav .nokhu {
+  text-transform: uppercase;
+  color: #000000;
+}
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.navbar ul .active {
+  color: #00BCD4;
+}
+.navbar ul li a {
+  text-decoration: none;
+  font-size: 12px;
+  color: #524949;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-family: "montserrat", sans-serif;
+  transition: all 0.4s ease;
+}
+.navbar ul li a:hover {
+  color: #00BCD4;
+}
+
 /*# sourceMappingURL=style.css.map */
