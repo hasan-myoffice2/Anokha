@@ -204,7 +204,75 @@ body {
 }
 // Skill Section End
 
+// Features Section Start
+.features-section {
+  padding: 4rem 0;
 
+  .features-content {
+    text-align: center;
+    span {
+      font-size: 26px;
+      color: #535353;
+      text-transform: uppercase;
+    }
+    p {
+      padding: 1rem;
+      line-height: 1.8rem;
+      color: #707070;
+    }
+    .features-color {
+        color: #00BCD4;
+        font-weight: bold;
+        margin-left: 5px;
+      }
+  }
+
+  .features-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .colum img{
+       width: 80%;
+       display: block;
+       margin: auto;
+    }
+    .features-item {
+      width: 356px;
+      height: auto;
+      text-align: center;
+      margin: 0.9rem 0;
+
+      h3 {
+        color: #535353;
+        font-size: 18px;
+        margin-bottom: 0.5rem;
+      }
+      p {
+        color: #707070;
+        font-size: 15px;
+        line-height: 1.5rem;
+      }
+
+      .icons {
+        width: 65px;
+        height: 65px;
+        background-color: #CCF2F6;
+        border-radius: 50% 50% 50% 70%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 40%;
+        margin-bottom: 1rem;
+        img {
+          width: 50%;
+        }
+      }
+    }
+  }
+
+}
+// Features Section End
 
 
 
