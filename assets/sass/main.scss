@@ -168,6 +168,41 @@ body {
 // Accordion Section End
 
 
+// Skill Section Start
+.skill-section {
+  margin-top: 3rem;
+  padding: 4rem 0;
+  background-color:#F8F9FA;
+
+  .skill-content {
+    display: flex;
+    padding: 10px 0;
+
+    .skill-item {
+      width: 285px;
+      display: flex;
+
+      .icons-box {
+        width: 60px;
+        height: 60px;
+        background-color: #00BCD4;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+        color: #fff;
+      }
+      h3 {
+        margin-left: 1rem;
+        padding: 1.2rem 0;
+        font-size: 18px;
+        font-weight: 600;
+      }
+    }
+  }
+}
+// Skill Section End
 
 
 
@@ -178,35 +213,3 @@ body {
 
 
 
-
-// .accordion-items{
-//   margin-top: 5rem;
-//   display: flex;
-//   align-items: center;
-
-//   .box 
-//   { 
-//     flex: 1;
-//   }
-
-//  .accordion-main{
-//   width: 90%;
-
-//   .items {
-//     background-color: #F8F9FA;
-//     margin: 10px 0;
-//     border-radius: 3px;
-//     display: flex;
-//     align-items: center;
-    
-//     .icon{
-//       margin-right: 10px ;
-//       background-color: #00BCD4;
-//       padding: 10px 18px;
-//       color: #fff;
-//       font-size: 20px;
-//     }
-//   }
-//  }  
-
-// }
