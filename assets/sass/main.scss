@@ -134,3 +134,79 @@ body {
 
 }
 // Hero Section End
+
+// Accordion Section Start
+.accordion-items {
+  display: flex;
+  align-items: center;
+  margin-top: 5rem;
+
+  .box {
+    flex: 1;
+  }
+
+  .accordion-main {
+    width: 100%;
+
+    .items {
+      display: flex;
+      background-color: #F8F9FA;
+      margin: 10px 0;
+      align-items: center;
+      border-radius: 5px;
+    }
+    
+    .icon {
+      padding: 12px 18px;
+      background-color: #00BCD4;
+      margin-right: 10px;
+      font-size: 18px;
+      color: #fff;
+    }
+  }
+}
+// Accordion Section End
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .accordion-items{
+//   margin-top: 5rem;
+//   display: flex;
+//   align-items: center;
+
+//   .box 
+//   { 
+//     flex: 1;
+//   }
+
+//  .accordion-main{
+//   width: 90%;
+
+//   .items {
+//     background-color: #F8F9FA;
+//     margin: 10px 0;
+//     border-radius: 3px;
+//     display: flex;
+//     align-items: center;
+    
+//     .icon{
+//       margin-right: 10px ;
+//       background-color: #00BCD4;
+//       padding: 10px 18px;
+//       color: #fff;
+//       font-size: 20px;
+//     }
+//   }
+//  }  
+
+// }

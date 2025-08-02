@@ -144,4 +144,30 @@ body {
   background-color: #008FA1;
 }
 
+.accordion-items {
+  display: flex;
+  align-items: center;
+  margin-top: 5rem;
+}
+.accordion-items .box {
+  flex: 1;
+}
+.accordion-items .accordion-main {
+  width: 100%;
+}
+.accordion-items .accordion-main .items {
+  display: flex;
+  background-color: #F8F9FA;
+  margin: 10px 0;
+  align-items: center;
+  border-radius: 5px;
+}
+.accordion-items .accordion-main .icon {
+  padding: 12px 18px;
+  background-color: #00BCD4;
+  margin-right: 10px;
+  font-size: 18px;
+  color: #fff;
+}
+
 /*# sourceMappingURL=style.css.map */
