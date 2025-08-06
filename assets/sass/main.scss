@@ -38,19 +38,20 @@ body {
     gap: 2rem;
 
     .active {
-      color: #00BCD4;
+      color: #00bcd4;
     }
     li a {
       text-decoration: none;
       font-size: 12px;
       color: #524949;
       text-transform: uppercase;
-      letter-spacing: 1px;font-weight: bold;
+      letter-spacing: 1px;
+      font-weight: bold;
       font-family: "montserrat", sans-serif;
       transition: all 0.4s ease;
     }
     li a:hover {
-      color: #00BCD4;
+      color: #00bcd4;
     }
   }
 }
@@ -64,10 +65,10 @@ body {
   height: 80vh;
   position: relative;
   z-index: 0;
-  
- .container {
-  z-index: 2;
- }
+
+  .container {
+    z-index: 2;
+  }
   .hero-content {
     padding: 15rem 0;
 
@@ -87,7 +88,6 @@ body {
 
   .hero-section::after {
     content: "";
-    
   }
 
   .button-group {
@@ -97,7 +97,7 @@ body {
       padding: 12px 20px;
       background-color: transparent;
       border: none;
-      background-color: #00BCD4;
+      background-color: #00bcd4;
       color: #fff;
       border-radius: 20px;
       transition: all 0.4s ease;
@@ -107,31 +107,26 @@ body {
       padding: 8px 20px;
       background-color: transparent;
       border: none;
-      border: 1px solid #00BCD4;
+      border: 1px solid #00bcd4;
       border-radius: 18px;
-      color: #00BCD4;
+      color: #00bcd4;
       transition: all 0.4s ease;
       display: flex;
       align-items: center;
       i {
         font-size: 20px;
         margin-left: 0.5rem;
-        
       }
     }
     .read-more-button:hover {
-      background-color: #00BCD4;
+      background-color: #00bcd4;
       color: #fff;
     }
 
     .buy-button:hover {
-      background-color: #008FA1;
+      background-color: #008fa1;
     }
-    
-    
-
   }
-
 }
 // Hero Section End
 
@@ -150,15 +145,15 @@ body {
 
     .items {
       display: flex;
-      background-color: #F8F9FA;
+      background-color: #f8f9fa;
       margin: 10px 0;
       align-items: center;
       border-radius: 5px;
     }
-    
+
     .icon {
       padding: 12px 18px;
-      background-color: #00BCD4;
+      background-color: #00bcd4;
       margin-right: 10px;
       font-size: 18px;
       color: #fff;
@@ -167,12 +162,11 @@ body {
 }
 // Accordion Section End
 
-
 // Skill Section Start
 .skill-section {
   margin-top: 3rem;
   padding: 4rem 0;
-  background-color:#F8F9FA;
+  background-color: #f8f9fa;
 
   .skill-content {
     display: flex;
@@ -185,7 +179,7 @@ body {
       .icons-box {
         width: 60px;
         height: 60px;
-        background-color: #00BCD4;
+        background-color: #00bcd4;
         border-radius: 50%;
         display: flex;
         align-items: center;
@@ -221,10 +215,10 @@ body {
       color: #707070;
     }
     .features-color {
-        color: #00BCD4;
-        font-weight: bold;
-        margin-left: 5px;
-      }
+      color: #00bcd4;
+      font-weight: bold;
+      margin-left: 5px;
+    }
   }
 
   .features-card {
@@ -232,10 +226,10 @@ body {
     align-items: center;
     justify-content: center;
 
-    .colum img{
-       width: 80%;
-       display: block;
-       margin: auto;
+    .colum img {
+      width: 80%;
+      display: block;
+      margin: auto;
     }
     .features-item {
       width: 356px;
@@ -257,7 +251,7 @@ body {
       .icons {
         width: 65px;
         height: 65px;
-        background-color: #CCF2F6;
+        background-color: #ccf2f6;
         border-radius: 50% 50% 50% 70%;
         display: flex;
         align-items: center;
@@ -270,7 +264,6 @@ body {
       }
     }
   }
-
 }
 // Features Section End
 
@@ -278,10 +271,14 @@ body {
 .results-section {
   display: flex;
   margin-bottom: 2rem;
-  background-color: #F8F9FA;
+  background-color: #f8f9fa;
+
+  img {
+    height: 530px;
+  }
 
   .results-text {
-    padding: 5rem 4rem;
+    padding: 4rem 0 0 3rem;
     h3 {
       color: #707070;
       font-size: 22px;
@@ -299,8 +296,6 @@ body {
     margin-top: 2rem;
     display: flex;
     justify-content: space-between;
-    
-    
   }
   .line {
     width: 100%;
@@ -316,25 +311,663 @@ body {
       padding: 10px 16px;
       background-color: transparent;
       border: none;
-      border: 1px solid #00BCD4;
+      border: 1px solid #00bcd4;
       border-radius: 18px;
-      color: #00BCD4;
+      color: #00bcd4;
       font-size: 700;
       transition: all 0.4s ease;
     }
     .read-more:hover {
-      background-color: #00BCD4;
+      background-color: #00bcd4;
+      color: #fff;
+    }
+  }
+}
+// Results Section End
+
+//Team Section Start
+.team-card-section {
+  padding: 3rem;
+  .team-header {
+    text-align: center;
+
+    h2 {
+      font-size: 26px;
+      color: #757575;
+      letter-spacing: 1px;
+      margin-bottom: 1.5rem;
+      font-weight: normal;
+      text-transform: uppercase;
+
+      span {
+        color: #00bcd4;
+        font-weight: 700;
+      }
+    }
+
+    p {
+      line-height: 1.5rem;
+      font-size: 14px;
+      color: #757575;
+      margin-bottom: 3rem;
+    }
+  }
+
+  .main-card {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+
+    .custom-card {
+      width: 260px;
+      height: auto;
+      position: relative;
+      background-color: #f8f9fa;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      border-radius: 10px;
+      overflow: hidden;
+      transition: all 0.4s ease;
+    }
+
+    .custom-card:hover {
+      transform: translateY(-7px);
+    }
+
+    ul {
+      list-style-type: none;
+      position: absolute;
+      padding: 0.5rem;
+    }
+
+    .custom-card:hover ul li {
+      opacity: 1;
+    }
+
+    ul li:hover {
+      background-color: #00b4dc;
+      color: #fff;
+      border: none;
+    }
+
+    ul li {
+      margin: 0.5rem 0;
+      opacity: 0;
+      transition: all 0.4s ease;
+      font-size: 12px;
+      width: 30px;
+      height: 30px;
+      border: 1px solid #272727;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+    }
+
+    img {
+      width: 100%;
+    }
+
+    .card-content {
+      padding: 1.5rem;
+      background-color: #f8f9fa;
+      text-align: center;
+    }
+
+    .card-content h3 {
+      margin-bottom: 0.5rem;
+      color: #272727;
+      font-size: 17px;
+      transition: all 0.4s ease;
+    }
+
+    .card-content h3:hover {
+      color: #00b4dc;
+    }
+
+    .card-content p {
+      text-transform: capitalize;
+      font-size: 13px;
+      color: #535353;
+    }
+  }
+}
+//Team Section End
+
+// Pricing Card Start
+.pricing-card-section {
+  background-color: #f8f9fa;
+  padding: 4rem;
+  margin-top: 2rem;
+
+  .card-items {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .card-header {
+    text-align: center;
+  }
+
+  .card-header h3 {
+    color: #535353;
+    font-weight: 400;
+    font-size: 26px;
+    letter-spacing: 1px;
+  }
+
+  .card-header span {
+    color: #00b4db;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-left: 3px;
+  }
+
+  .card-header p {
+    padding: 1.5rem;
+    font-size: 15px;
+    color: #757575;
+    line-height: 1.5rem;
+  }
+
+  .card {
+    width: 260px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #fff;
+    margin-top: 4rem;
+    transition: all 0.4s ease;
+
+    .standerd {
+      background-color: #00bcd4;
       color: #fff;
     }
   }
 
+  .card:hover {
+    transform: translateY(-5px);
+  }
+
+  .card ul {
+    list-style-type: none;
+  }
+
+  .card ul li {
+    padding: 12px 0;
+    border-top: 1.8px dashed #dee2e6;
+    font-size: 13px;
+    color: #535353;
+    text-transform: capitalize;
+  }
+
+  .card ul li:nth-last-child(1) {
+    border-bottom: 1px dashed #dee2e6;
+  }
+
+  .card ul li:nth-child(odd) {
+    background-color: #f8f9fa;
+  }
+
+  .card h3 {
+    padding: 24px;
+    background-color: #f8f9fa;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #535353;
+    font-weight: 500;
+  }
+
+  .card h2 {
+    padding: 48px;
+    color: #535353;
+    font-size: 30px;
+  }
+  h2 p {
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  .btn {
+    padding: 24px;
+  }
+
+  button {
+    padding: 10px 20px;
+    border: none;
+    background-color: transparent;
+    background-color: #00b4db;
+    border-radius: 18px;
+    color: #fff;
+    text-transform: capitalize;
+    transition: all 0.4s ease;
+  }
+
+  button:hover {
+    background-color: #008fa1;
+    color: #fff;
+  }
 }
-// Results Section End
+// Pricing Card End
 
+// Card Design Section Start
+.card-section-design {
+  margin-top: 2rem;
 
+  .card-items {
+    display: flex;
+    gap: 1rem;
+  }
 
+  .card-header {
+    text-align: center;
+    padding: 2rem;
 
+    h3 {
+      margin-bottom: 1.5rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-weight: 400;
+      font-size: 26px;
+      span {
+        color: #00b4d4;
+        font-weight: 700;
+      }
+    }
+    p {
+      font-size: 14px;
+      color: #757575;
+    }
+  }
 
+  .custom-card {
+    width: 380px;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    background: #fff;
+    margin: 20px auto;
+    transition: all 0.2s ease;
+  }
 
+  .card-body h4 {
+    transition: all 0.4s ease;
+  }
 
+  .card-body h4:hover {
+    color: #00b4d4;
+  }
 
+  .custom-card:hover {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    transform: translateY(-7px);
+    cursor: pointer;
+  }
+
+  .card-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+
+  .card-body {
+    padding: 25px;
+  }
+
+  .card-title {
+    font-size: 1.3rem;
+    margin: 0 0 10px 0;
+    color: #222;
+  }
+
+  h2 {
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  .card-text {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 16px;
+    line-height: 1.5rem;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+  }
+
+  .card-btn {
+    padding: 8px 18px;
+    background: #00b4d4;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.4s ease;
+  }
+
+  .card-btn:hover {
+    background: #9fdf09;
+    color: #fff;
+  }
+
+  ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+  }
+
+  ul li {
+    margin-bottom: 0.5rem;
+    color: #757575;
+    font-size: 14px;
+    text-transform: capitalize;
+    transition: all 0.4s ease;
+  }
+
+  ul li:hover {
+    color: #00b4d4;
+  }
+}
+// Card Design Section End
+
+// Free Trial Section Start
+.trial-section {
+  margin-top: 3rem;
+  padding: 5rem;
+  background-image: url(/assets/image/free-trial-image);
+  width: 100%;
+  height: 300px;
+  text-align: center;
+  object-fit: cover;
+  background-position: top;
+  display: flex;
+  justify-content: center;
+
+  .trial-image {
+    h2 {
+      color: #fff;
+      font-size: 26px;
+      letter-spacing: 2px;
+      margin-bottom: 1rem;
+    }
+    p {
+      color: rgba(255, 255, 255, 0.5);
+      font-size: 14px;
+      margin-bottom: 1rem;
+      line-height: 1.5rem;
+    }
+  }
+  .btn-three {
+    padding: 1rem;
+    button {
+      padding: 10px 16px;
+      font-size: 12px;
+      letter-spacing: 1px;
+      text-transform: capitalize;
+      background-color: transparent;
+      outline: none;
+      border: none;
+      background-color: #00bcd4;
+      border-radius: 15px;
+      color: #fff;
+      transition: all 0.4s ease;
+    }
+    button:hover {
+      background-color: #008fa1;
+      color: #fff;
+    }
+  }
+}
+// Free Trial Section End
+
+// Form Section Start
+.form-section {
+  margin-top: 3rem;
+  .form-header {
+    text-align: center;
+  }
+
+  .form-header p {
+    color: #757575;
+    font-size: 14px;
+  }
+
+  .header-text {
+    display: flex;
+    gap: 0.4rem;
+    justify-content: center;
+  }
+
+  .header-text h2 {
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    word-spacing: 5px;
+    font-size: 26px;
+  }
+
+  .get-in {
+    color: #757575;
+    font-weight: 400;
+  }
+
+  .touch {
+    color: #00b4dc;
+  }
+
+  .form-container {
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .two-input {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .form-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-group input {
+    padding: 0.6rem;
+    border: none;
+    border: 1px solid #dee2e6;
+    border-radius: 18px;
+    outline: none;
+    transition: all 0.4s ease;
+    color: #707070;
+    font-size: 14px;
+  }
+
+  .form-group label {
+    padding: 0.7rem 0;
+    font-size: 14px;
+    color: #757575;
+  }
+
+  .form-group textarea {
+    height: 110px;
+    border: none;
+    border: 1px solid #dee2e6;
+    border-radius: 18px;
+    padding: 0.5rem;
+    outline: none;
+    resize: none;
+    transition: all 0.4s ease;
+  }
+
+  textarea:focus {
+    border: 1px solid #00b4dc;
+  }
+
+  input:focus {
+    border: 1px solid #00b4dc;
+  }
+
+  button {
+    padding: 9px;
+    border: none;
+    background-color: transparent;
+    background-color: #00b4dc;
+    border-radius: 15px;
+    transition: all 0.4s ease;
+    color: #fff;
+  }
+
+  button:hover {
+    background-color: #008fa1;
+    color: #fff;
+  }
+}
+// Form Section End
+
+// Footer Section Start
+.footer-section {
+  width: 100vw;
+  height: 300px;
+  background-color: #272727;
+  color: #fff;
+  font-family: "roboto", sans-serif;
+
+  .container {
+    width: 1140px;
+    margin: auto;
+    padding: 2rem 0;
+  }
+
+  .footer-items {
+    display: flex;
+    gap: 5rem;
+    position: relative;
+  }
+
+  .square {
+    width: 30px;
+    height: 30px;
+    background-color: #00b4dc;
+    position: absolute;
+    top: -34%;
+    left: 50%;
+    transform: rotate(40deg);
+    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.4s ease;
+  }
+
+  .square:hover {
+    background-color: #535353;
+    color: #fff;
+    font-weight: bold;
+  }
+
+  .square span {
+    transform: rotate(-40deg);
+    font-size: 14px;
+  }
+
+  .footer-text h3 {
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: "roboto", sans-serif;
+    font-weight: 400;
+  }
+
+  .footer-text p {
+    line-height: 1.7rem;
+    color: #adb5bd;
+    font-size: 14px;
+  }
+
+  .footer-text ul {
+    list-style-type: none;
+    color: #adb5bd;
+    font-size: 14px;
+    padding: rem 0;
+  }
+
+  .footer-text ul li:hover {
+    color: #00b4dc;
+  }
+
+  .footer-text ul li {
+    font-size: 14px;
+    text-transform: capitalize;
+    margin: 0.6rem 0;
+    display: flex;
+    gap: 12px;
+  }
+
+  .footer-text ul li i {
+    font-size: 10px;
+  }
+
+  ul .call {
+    font-size: 13px !important;
+  }
+
+  .icons-items {
+    display: flex;
+    gap: 0.2rem;
+  }
+
+  .icons-items li {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #adb5bd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.4s ease;
+  }
+
+  .icons-items li:hover {
+    background-color: #00b4dc;
+    border: none;
+  }
+
+  .icons-items li:hover i {
+    color: #fff;
+  }
+
+  .icons-items li i {
+    font-size: 13px !important;
+    color: #adb5bd;
+  }
+
+  hr {
+    border: none;
+    border: 1px solid rgba(243, 245, 241, 0.308);
+    border-bottom: #adb5bd;
+  }
+
+  .end-text {
+    text-align: center;
+    padding: 2.5rem;
+  }
+
+  .end-text p {
+    font-size: 14px;
+    color: #adb5bd;
+  }
+
+  .end-text i {
+    color: #dc3545;
+    font-size: 13px;
+  }
+}
+// Footer Section End
