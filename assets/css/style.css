@@ -82,7 +82,7 @@ body {
 }
 
 .hero-section {
-  background-image: url(../assets/image/mim.jpg);
+  background-image: url(../image/mim.jpg);
   background-size: cover;
   background-position: center;
   height: 80vh;
@@ -859,6 +859,12 @@ body {
 .footer-section .end-text i {
   color: #dc3545;
   font-size: 13px;
+}
+
+@media (max-width: 991.98px) {
+  .container {
+    width: 500px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
