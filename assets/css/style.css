@@ -15,30 +15,11 @@
   color: #fff;
 }
 
-h1 {
-  font-size: 48px;
-}
-
-h2 {
-  font-size: 40px;
-  color: #14133b;
-}
-
-h3 {
-  font-size: 17px;
-  color: #535353;
-}
-
-h5 {
-  font-size: 15px;
-}
-
-p {
-  font-size: 16px;
-}
-
 body {
   font-family: "montserrat", sans-serif;
+  width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
 }
 
 .navbar {
@@ -451,7 +432,7 @@ body {
   color: #fff;
 }
 .pricing-card-section .card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-8px);
 }
 .pricing-card-section .card ul {
   list-style-type: none;
@@ -850,7 +831,7 @@ body {
 }
 .footer-section .end-text {
   text-align: center;
-  padding: 2.5rem;
+  margin-top: 2.5rem;
 }
 .footer-section .end-text p {
   font-size: 14px;
